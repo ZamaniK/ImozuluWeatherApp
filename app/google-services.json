@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53359363626",
+    "project_id": "imozulu-weather-app",
+    "storage_bucket": "imozulu-weather-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53359363626:android:f85afd4b971a757f152553",
+        "android_client_info": {
+          "package_name": "com.example.imozuluweatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53359363626-ag6fobr2hlatqu5lvh93nm9igdlr46dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuhaA2QRGLQNCpk-SHxlrb0FNJogm8af8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53359363626-ag6fobr2hlatqu5lvh93nm9igdlr46dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

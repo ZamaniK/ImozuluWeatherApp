@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/profile_bottom"
+          android:title="Profile"
+          app:showAsAction="always"
+          android:icon="@drawable/ic_baseline_person_24"></item>
+    <item android:id="@+id/weather_bottom"
+        android:title="Weather"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"></item>
+    <item android:id="@+id/News_bottom"
+        android:title="News"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_menu_book_24"></item>
+</menu>

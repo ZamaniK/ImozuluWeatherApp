@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:alphabeticShortcut="r"
+        android:icon="@drawable/ic_refresh"
+        android:orderInCategory="1"
+        android:title="Refresh" />
+
+    <item android:title="Profile Settings"
+          android:icon="@drawable/ic_baseline_admin_panel_settings_24">
+        <menu>
+            <item android:title="Profile"
+                  android:id="@+id/menu_profile"
+                  android:icon="@drawable/ic_baseline_person_24" />
+            <item android:title="Update Profile"
+                  android:id="@+id/menu_update_profile"
+                  android:icon="@drawable/ic_baseline_person_add_24" />
+            <item android:title="Update Email"
+                  android:id="@+id/menu_update_email"
+                  android:icon="@drawable/ic_baseline_message_24"/>
+            <item android:title="Change Password"
+                  android:id="@+id/menu_change_password"
+                  android:icon="@drawable/ic_baseline_lock_open_24"/>
+            <item android:title="Delete Profile"
+                  android:id="@+id/menu_delete_profile"
+                  android:icon="@drawable/ic_baseline_delete_forever_24"/>
+        </menu>
+    </item>
+    <item android:title="Weather Forecast" android:id="@+id/menu_weather" android:icon="@drawable/ic_baseline_wb_sunny_24" />
+    <item android:title="Breaking News" android:id="@+id/menu_news" android:icon="@drawable/ic_baseline_menu_book_24"/>
+    <item android:title="Other Users" android:id="@+id/menu_users" android:icon="@drawable/ic_baseline_people_alt_24" />
+
+
+    <item android:title="Settings" android:id="@+id/menu_settings" android:icon="@drawable/ic_baseline_settings_applications_24"/>
+    <item android:title="Logout"
+        android:id="@+id/menu_logout" android:icon="@drawable/ic_baseline_login_24"
+        />
+
+</menu>
